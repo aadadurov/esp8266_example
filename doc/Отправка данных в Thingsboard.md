@@ -22,9 +22,9 @@ altitude: 0.0000
     mosquitto_pub -d -q 1 -h "89.208.220.227" -t "v1/devices/me/telemetry" -u "BYtlzAIaJfGP5CAsBkI3" -f "payload.json"
 
 <ins>Сами данные:</ins>
-    {
-    "temperature":22,
-    "humidity":45
+    {<br>
+    "temperature":22,<br>
+    "humidity":45<br>
     }
 
 <ins>Документация по этой теме:</ins>
