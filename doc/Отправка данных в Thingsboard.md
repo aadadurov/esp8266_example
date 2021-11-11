@@ -21,14 +21,14 @@ altitude: 0.0000
 <ins>Инструмент для отправки данных по протоколу MQTT</ins>:<br>
     mosquitto_pub -d -q 1 -h "89.208.220.227" -t "v1/devices/me/telemetry" -u "BYtlzAIaJfGP5CAsBkI3" -f "payload.json"
 
-<ins>Сами данные:</ins>
+<ins>Сами данные:</ins><br>
     {<br>
     "temperature":22,<br>
     "humidity":45<br>
     }
 
-<ins>Документация по этой теме:</ins>
+<ins>Документация по этой теме:</ins><br>
 https://thingsboard.io/docs/reference/mqtt-api/#telemetry-upload-api
 
-<ins>Документация в целом по платформе:</ins>
+<ins>Документация в целом по платформе:</ins><br>
 https://thingsboard.io/docs/
