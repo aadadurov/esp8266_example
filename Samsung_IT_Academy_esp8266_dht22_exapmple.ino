@@ -23,7 +23,7 @@ const char password[64] = "D28fkf3742"; // Пароль
 // Задаём параметры подключения к IoT-платформе Samsung IT Academy  
 char thingsboardServer[] = "89.208.220.227"; // Адрес платформы
 uint16_t thingsboardServerPort = 1883; // Порт для подключения по протоколу MQTT
-#define TOKEN "123456" // Токен выдаваемый устройству 
+#define TOKEN "kuru5uBhitPrtgoVTOqT" // Токен выдаваемый устройству 
 
 // Переменные влажности и температуры
 float humidity, temp;

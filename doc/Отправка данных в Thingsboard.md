@@ -9,11 +9,24 @@ altitude: 0.0000
 
 **ЧТО НЕОБХОДИМО ДЛЯ ОТПРАВКИ ДАННЫХ НА IoT-ПЛАТФОРМУ THINGSBOARD**
 
+**IoT-платформа THINGSBOARD IT Академии Samsung**
+
+<ins>Web-интерфейс:</ins> http://89.208.220.227:8080
+Логин: tenant@thingsboard.org
+Пароль: tenant
+
+<ins>Адрес платформы (брокера в терминологии MQTT):</ins> 89.208.220.227 <ins>**Порт:**</ins> 1883
+<ins>Токен выданный платформой устройству:</ins> TOKEN BYtlzAIaJfGP5CAsBkI3
+<ins>Точка входа API (topic в терминологии MQTT):</ins> v1/devices/me/telemetry
+<ins>Инструмент для отправки данных по протоколу MQTT</ins>:
+mosquitto_pub -d -q 1 -h "89.208.220.227" -t "v1/devices/me/telemetry" -u "BYtlzAIaJfGP5CAsBkI3" -f "payload.json"
+
 <ins>Адрес платформы (брокера в терминологии MQTT):</ins> 89.208.220.227 <ins>Порт:</ins> 1883<br>
 <ins>Токен выданный платформой устройству:</ins> TOKEN BYtlzAIaJfGP5CAsBkI3<br>
 <ins>Точка входа API (topic в терминологии MQTT):</ins> v1/devices/me/telemetry<br>
 <ins>Инструмент для отправки данных по протоколу MQTT</ins>:<br>
     mosquitto_pub -d -q 1 -h "89.208.220.227" -t "v1/devices/me/telemetry" -u "BYtlzAIaJfGP5CAsBkI3" -f "payload.json"
+
 
 <ins>Сами данные:</ins>
     {
